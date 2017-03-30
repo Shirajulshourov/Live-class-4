@@ -1,0 +1,59 @@
+*{
+	padding: 0;
+	margin: 0 auto;
+}
+
+body{
+	background: url(../images/blue.jpg) no-repeat center top;
+	background-size: cover;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.header{
+	padding:20px;
+	width: 800px;
+	margin: 0 auto;
+	background: #A9E9FF;
+	border: 2px solid black;
+	box-shadow: 22px 18px 32px #00056F;
+	background: rgba(0,0,255,0.5);
+}
+h2{
+	font-family: 'Nova Oval', cursive;
+	text-align: center;
+	font-size: 35px;
+	color:#001D34;
+	margin-bottom: 15px;
+	background:#003090;
+	padding: 15px;
+	background: rgba(0,0,255,0.2);
+	border: 2px solid blue;
+	border-right: none;
+	border-left: none;
+	text-shadow: 1px 5px 8px #0020A4;
+}
+h3{
+	font-family: 'Ubuntu Mono', monospace;
+	padding: 5px 0;
+	font-size: 23px;
+}
+p{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:16px;
+	margin-top: 10px;
+	font-weight: 500;
+	line-height: 25px;
+	text-align: justify;
+}
+.header > h2:hover{
+	cursor: pointer;
+	background: #2D19FA;
+	border: 2px solid black;
+	transition-delay: 0.2s;
+	transition: 1s;
+
+
+
+}
